@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Site de Notícias</title>
+        <link
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <style>
+            .headline img {
+                width: 100%;
+                height: auto;
+            }
+            .important-news img {
+                width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <nav
+            class="navbar col-12 navbar-expand-lg navbar-dark bg-dark bg-body-tertiary"
+            style="z-index: 999"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Another action</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Something else here</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row headline">
+                <div class="col-12">
+                    <div class="card">
+                        <img
+                            src="https://www.lance.com.br/galerias/wp-content/uploads/2020/10/Pele-3-843x474.jpg"
+                            class="card-img-top"
+                            alt="Manchete"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Manchete da Zueira</h5>
+                            <p class="card-text">
+                                Um novo começo da carreira de Pelé...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 important-news">
+                    <div class="card">
+                        <img
+                            src="https://images.tcdn.com.br/img/img_prod/1141538/1717534280_topo_mobile.jpg"
+                            class="card-img-top"
+                            alt="Notícia 1"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Novas Camisas</h5>
+                            <p class="card-text">
+                                Garanta o seu presente de dia dos namorados com
+                                descondo de camisa do São Paulo FC e faça a sua
+                                namorada feliz
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 important-news">
+                    <div class="card">
+                        <img
+                            src="https://www.lance.com.br/galerias/wp-content/uploads/2021/04/Manchete-8-843x474.jpg"
+                            class="card-img-top"
+                            alt="Notícia 2"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Vinicius melhor do mundo ?
+                            </h5>
+                            <p class="card-text">
+                                Com a temporada da europa encerrada muitos estão
+                                falando de vinícus junior sobre sua temporada no
+                                Real Madrid!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 important-news">
+                    <div class="card">
+                        <img
+                            src="https://www.franciscodantas.rn.gov.br/fotos/283/Capa283.jpg"
+                            class="card-img-top"
+                            alt="Notícia 3"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Campeonato Nacional de futebol
+                            </h5>
+                            <p class="card-text">
+                                Atenção! Começa hj a rodada dupla do grupo A com
+                                início do jogo as 19h nos dia 02 de março.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
